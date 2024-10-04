@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.usuario {
+    background-color: var(--cor-2);
+    height: 87.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    background-image: url('../assets/background-dark.png');
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.dark .usuario {
+    background-color: var(--cor-1);
+    height: 87.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/background-light.png');
+
+}
+
+.principal {
+    background-color: var(--cor-1);
+    height: 80%;
+    width: 80%;
+    display: flex;
+    -webkit-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);  
+    border-radius: 25px;
+}
+
+.dark .principal {
+    background-color: var(--cor-2);
+    height: 80%;
+    width: 80%;
+    display: flex;
+    -webkit-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);  
+    border-radius: 25px;
+}
+
+.infos-usuario {
+    background-color: transparent;
+    width: 50%;
+    height: 400px;
+    border-radius: 25px;
+    
+}
+
+.foto-usuario {
+    background-image: url('../assets/user_light.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 25px;
+    
+}
+
+.dark .foto-usuario {
+    background-image: url('../assets/user_dark.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.dark .foto-usuario {
+    background-color: var(--cor-2);
+    height: 30%;
+    justify-content: center;
+    align-items: end;
+    display: flex;
+
+}
+
+
+
+.nome-usuario {
+    background-color: var(--cor-1);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.dark .nome-usuario {
+    background-color: var(--cor-2);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.nome-usuario p{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-2);
+
+}
+
+.dark .nome-usuario p{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-1);
+
+}
+
+
+
+.input-usuario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Espaço entre os grupos de inputs */
+    margin-left: 15%;
+
+}   
+
+.input-usuario p {
+    margin: 5px 0; /* Margem acima e abaixo dos parágrafos */
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--cor-2);
+    display: flex;
+    align-items: center;
+}
+
+.dark .input-usuario p {
+    margin: 5px 0; /* Margem acima e abaixo dos parágrafos */
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--cor-1);
+    display: flex;
+    align-items: center;
+}
+
+.input-css {
+    /* padding: 8px; Espaçamento interno dos inputs */
+    margin-top: 10px; /* Espaço entre o parágrafo e o input */
+    width: 85%;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid var(--cor-6);
+    font-size: 13px;
+}
+
+
+
+.button-usuario {
+    background-color: var(--cor-1);
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.dark .button-usuario {
+    background-color: var(--cor-2);
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.assinaturas-usuario {
+    background-color: var(--cor-1);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #607a69; 
+    border-top-right-radius: 25px;   /* Apenas o canto superior direito */
+    border-bottom-right-radius: 25px; /* Apenas o canto inferior direito */
+}
+
+.dark .assinaturas-usuario {
+    background-color: var(--cor-2);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid #dfdbc9; 
+    border-top-right-radius: 25px;   /* Apenas o canto superior direito */
+    border-bottom-right-radius: 25px; /* Apenas o canto inferior direito */
+}
+
+.scroll-assinaturas {
+    background-color: white;
+    height: 80%;
+    width: 92%;
+}
+
+.usuario-user-icon{
+    width: 120px;
+}
+
+.button-edituser-css{
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: var(--cor-1);
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+
+}
+
+.button-excluiruser-css{
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(121, 0, 0);
+    font-size: 18px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    cursor: pointer;
+    -webkit-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+    box-shadow: -1px 23px 32px -15px rgba(0,0,0,0.75);
+
+}
+
+.button-edituser-css:hover{
+    border: none;
+    width: 170px;
+    height: 60px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: var(--cor-1);
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.button-excluiruser-css:hover{
+    border: none;
+    width: 170px;
+    height: 60px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(121, 0, 0);
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
